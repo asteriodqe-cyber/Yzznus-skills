@@ -1,0 +1,16 @@
+name: recursive-coach
+description: Recursive cognitive pattern analysis tool for identifying behavioral loops and generating actionable strategies
+version: 1.0.0
+
+entrypoint: prompt.md
+
+inputs:
+  - name: user_input
+    type: string
+    required: true
+    description: User's situation, behavior pattern, and context
+
+outputs:
+  - name: analysis
+    type: markdown
+    description: Structured recursive analysis with diagnosis and actionable strategy
